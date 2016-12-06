@@ -66,10 +66,15 @@ public class CheckOutSystemTest {
         assertEquals(2.05, checkOutSystem.totalCost(), 0);
     }
 
+
+
     @After
     public void printItems(){
+
         System.out.println(checkOutSystem.toString());
     }
+
+
 
 
 }
